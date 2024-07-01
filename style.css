@@ -284,6 +284,7 @@
     padding: 50px 0;
     margin-top: -40vh;
     background-color: #475323;
+    border-radius: 0% 0% 10% 10% / 5%;
 }
 
 .h4-sec3{
@@ -371,6 +372,7 @@
 .section-4 {
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 
 .section4-all {
@@ -541,12 +543,13 @@ form {
   }
 
   .section-6{
-    background-color: #475323;
+    background-color: #252525;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+    border-radius: 50% 50% 0% 0% / 15%;
   }
 
   .section6-all{
