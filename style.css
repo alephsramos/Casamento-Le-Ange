@@ -17,6 +17,7 @@
     height: 100vh;
     z-index: 1;
     background-color: black;
+    border-radius: 0 0 100% 100% / 20%;
 }
 
 
@@ -44,18 +45,23 @@
 @keyframes changeBackground {
     0% {
         background-image: url('img/background1.JPG');
+        border-radius: 0 0 100% 100% / 20%;
     }
     25% {
         background-image: url('img/background2.JPG');
+        border-radius: 0 0 100% 100% / 20%;
     }
     50% {
         background-image: url('img/background3.JPG');
+        border-radius: 0 0 100% 100% / 20%;
     }
     75% {
         background-image: url('img/background4.JPG');
+        border-radius: 0 0 100% 100% / 20%;
     }
     100% {
         background-image: url('img/background1.JPG'); /* Volta para a primeira imagem */
+        border-radius: 0 0 100% 100% / 20%;
     }
 }
 .nav-bar {
@@ -98,7 +104,7 @@
 }
 
 .nav-bar img {
-    height: 80px;   
+    height: 60px;   
 }
 
 .img-logo-div{
@@ -151,6 +157,8 @@
     background-color: #8A8C4A;
 }
 
+
+
 .section-1 {
     padding: 0 15%;
     display: flex;
@@ -169,6 +177,13 @@
     text-align: right;
     width: 400px;
     height: 400px;
+    transition: transform 0.3s ease-in-out;
+    filter: brightness(0.9);
+}
+
+.section-image img:hover{
+    transform: scale(1.1) translateY(-2%);
+    filter: brightness(1.1);
 }
 
 .h6-sec-1{
@@ -193,6 +208,7 @@
     color: #202020;
     opacity: 0.8;
     margin-top: 3%;
+    
 }
 
 .button-sec-1{
@@ -201,7 +217,14 @@
     background-color: #475323;
     font-size: 1.1rem;
     border: none;
+    cursor: pointer;
     margin-top: 5%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button-sec-1:hover{
+    transform: scale(1.1) translateX(4%);
+    background-color: #8A8C4A;
 }
 
 .section-2 {
@@ -221,18 +244,37 @@
     max-width: 100%;
     width: 150px;
     height: auto;
+    transition: transform 0.2s ease-in-out;
 }
+
+.section2-all img:hover{
+    transform: scale(1.05);
+}
+
 .section2-all h4 {
     margin-top: 10px;
     font-size: 1.5rem;
     color: #475323;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
+
+.section2-all h4:hover{
+    transform: scale(1.05);
+}
+
 .section2-all p {
     margin-top: 5px;
+    cursor: pointer;
     font-size: 1rem;
     color: #202020;
     opacity: 0.8;
     line-height: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.section2-all p:hover{
+    transform: scale(1.05);
 }
 
 .section-3 {
@@ -285,14 +327,18 @@
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    filter: brightness(0.6);
+    filter: brightness(0.8);
+}
+
+.card img:hover{
+    filter: brightness(1);
 }
 
 .card h2 {
@@ -306,7 +352,7 @@
     color: white;
     width: 80%;
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 
@@ -341,7 +387,7 @@
 }
 
 .img-container:hover{
-    transform: scale(1.10);
+    transform: scale(1.20);
 }
 
 .img-container {
@@ -477,12 +523,12 @@ form {
   
   .image-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
   
   .image-gallery img {
-    width: 100%;
+    width:100%;
     height: auto;
     border-radius: 5px;
     transition: transform 0.2s ease-in-out;
@@ -495,7 +541,7 @@ form {
   }
 
   .section-6{
-    background-image: url(img/background5.jpg);
+    background-color: #475323;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -515,18 +561,24 @@ form {
   .h1-sec6{
     color: #ffffff;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-top: 12vh;
   }
 
   .button-sec6{
     padding: 10px 40px;
-    color: white;
-    background-color: #475323;
+    color: #475323;
+    background-color: #ffffff;
     border: none;
     font-size: 1.2rem;
     margin-top: 1%;
     font-weight: 200;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .button-sec6:hover{
+    transform: scale(1.05);
   }
 
 
@@ -545,7 +597,7 @@ form {
 
 .logo-center {
     margin-bottom: 20px;
-    width: 100px;
+    width: 50px;
     margin-top: 2%;
 }
 
@@ -613,7 +665,11 @@ form {
     width: 130px;
     border-radius: 5px;
     height: auto;
+    transition: transform 0.2s ease-in-out;
+}
 
+.right-section img:hover{
+    transform: scale(1.10) translateY(-5%);
 }
 
 .footer-bottom {
