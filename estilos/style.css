@@ -212,6 +212,7 @@ article .wave.wave4 {
 
 .sobre-sec{
     padding: 0 10%;
+    
 }
 
 
@@ -272,7 +273,9 @@ article .wave.wave4 {
 }
 
 .image-montain{
-    background-color: #cbd967;
+    background-image: url('../imagens/img/fundo-teste1.svg');
+    background-position: center;
+    background-size: cover;
     width: 90%;
     height: 40vh;
     display: flex;
@@ -296,7 +299,9 @@ article .wave.wave4 {
 }
 
 .image-dog{
-    background-color: #89bada;
+    background-image: url('../imagens/img/fundo-teste.svg');
+    background-position: center;
+    background-size: cover;
     width: 90%;
     height: 40vh;
     display: flex;
@@ -324,6 +329,7 @@ article .wave.wave4 {
     padding: 0 10%;
     margin-top: 5%;
     height: 100vh;
+    background-image: url('../imagens/img/fundo-teste2.svg');
 }
 
 .eventos-title{
@@ -543,8 +549,7 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), 
-                url('../imagens/img/fundo.webp');
+    background-image: url('../imagens/img/fundo-teste2.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
