@@ -365,16 +365,16 @@ article .wave.wave4 {
 }
 
 #card1{
-    background-image: url(../imagens/img/foto-casal.png);
-    background-position: center;
+    background-image: url(../imagens/img/foto-niver.png);
+    background-position: bottom;
     background-size: cover;
 }
 
 
 
 #card2{
-    background-image: url(../imagens/img/foto-niver.png);
-    background-position: center;
+    background-image: url(../imagens/img/foto-casal.png);
+    background-position: top;
     background-size: cover;
 }
 
