@@ -31,12 +31,9 @@
     }
     
     .sobre-card-texts h6{
-        width: 100%;
-        color: #3b491e;
         text-align: left;
         font-size: 1.2rem;
-        margin-bottom: 10px;
-        font-family: "Comfortaa", sans-serif;
+        width: 100%;
     }
     
     
@@ -64,6 +61,166 @@
     }
     
     .image-montain img{
+        display: none;
+    }
+    
+    .image-dog{
+        border-radius: 0% 10% 10% 0% / 10% 10%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-dog img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .sobre-sec{
+        padding: 0 10%;
+    }
+    
+    
+    .sobre-title{
+        width: 100%;
+        height: 8vh;
+        margin-top: 30px;
+        padding: 0 10%;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    
+    .sobre-title h1{
+        font-size: 3.5rem;
+    }
+    
+    
+    .sobre-card-texts{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sobre-card-texts h6{
+        text-align: left;
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    
+    
+    .sobre-card-texts-2{
+        color: #037b85!important;
+    }
+    
+    
+    .sobre-card-texts p:nth-child(2){
+        color: #344753;
+    }
+    
+    
+    .sobre-card-texts p{
+        width: 100%;
+        color: #3b491e;
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+    
+    .image-montain{
+        border-radius: 15% 0 0 15% / 15% 15%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-montain img{
+        display: none;
+    }
+    
+    .image-dog{
+        border-radius: 0% 15% 15% 0% / 15% 15%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .image-dog img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 901px){
+    .sobre-sec{
+        padding: 0 10%;
+    }
+    
+    
+    .sobre-title{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 8vh;
+        margin-top: 30px;
+        padding: 0 10%;
+        margin-bottom: 100px;
+    }
+    
+    .sobre-title h1{
+        font-size: 4rem;
+    
+    }
+    
+    
+    .sobre-card-texts{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sobre-card-texts h6{
+        text-align: left;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .sobre-card-texts-2{
+        color: #037b85!important;
+    }
+    
+    
+    .sobre-card-texts p:nth-child(2){
+        color: #344753;
+    }
+    
+    
+    .sobre-card-texts p{
+        width: 100%;
+        color: #3b491e;
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+    
+    .image-montain{
+        background-color: #cbd967;
+        width: 100%;
+        margin-left: 2%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 1;
+        padding: 0 10%;
+        margin-bottom: 7%;
+        border-radius: 20% 0 0 10% / 100% 50%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .image-montain img{
         width: 50%;
         height: 50vh;
         float: bottom;
@@ -71,12 +228,21 @@
         z-index: 3;
         top: -5vh;
         object-fit: contain;
-        display: none;
     }
     
     .image-dog{
-        border-radius: 0% 10% 10% 0% / 10% 10%;
-        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+        background-color: #89bada;
+        width: 100%;
+        height: 40vh;
+        margin-right: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+        padding: 0 10%;
+        border-radius: 0% 20% 10% 0% / 50% 100%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     }
     
     .image-dog img{
@@ -88,6 +254,5 @@
         position: relative;
         z-index: 3;
         top: -2vh;
-        display: none;
     }
 }
