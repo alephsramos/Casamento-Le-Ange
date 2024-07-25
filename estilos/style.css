@@ -366,7 +366,7 @@ article .wave.wave4 {
 }
 
 #card1{
-    background-image: url(../imagens/img/foto-3.webp);
+    background-image: url(../imagens/img/foto-casal.png);
     background-position: center;
     background-size: cover;
 }
@@ -374,13 +374,13 @@ article .wave.wave4 {
 
 
 #card2{
-    background-image: url(../imagens/img/foto-4.webp);
+    background-image: url(../imagens/img/foto-niver.png);
     background-position: center;
     background-size: cover;
 }
 
 .card img {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -670,7 +670,7 @@ hr{
     overflow: hidden;
     position: relative;
     margin-bottom: 80px;
-    margin-top: -60px;
+    margin-top: -150px;
 }
 
 .fotos-carrossel1 div {
