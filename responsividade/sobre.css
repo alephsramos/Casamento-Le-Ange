@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px){
+    .sobre-sec{
+        padding: 0 10%;
+    }
+    
+    
+    .sobre-title{
+        width: 100%;
+        height: 8vh;
+        margin-top: 30px;
+        padding: 0 10%;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    
+    .sobre-title h1{
+        font-size: 2.5rem;
+        font-family: "Comfortaa", sans-serif;
+        color:#ad5e28;
+    
+    }
+    
+    
+    .sobre-card-texts{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sobre-card-texts h6{
+        width: 100%;
+        color: #3b491e;
+        text-align: left;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-family: "Comfortaa", sans-serif;
+    }
+    
+    
+    
+    .sobre-card-texts-2{
+        color: #037b85!important;
+    }
+    
+    
+    .sobre-card-texts p:nth-child(2){
+        color: #344753;
+    }
+    
+    
+    .sobre-card-texts p{
+        width: 100%;
+        color: #3b491e;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .image-montain{
+        background-color: #cbd967;
+        width: 90%;
+        margin-left: 10%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 1;
+        padding: 0 10%;
+        margin-bottom: 7%;
+        border-radius: 20% 0 0 10% / 100% 50%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .image-montain img{
+        width: 50%;
+        height: 50vh;
+        float: bottom;
+        position: relative;
+        z-index: 3;
+        top: -5vh;
+        object-fit: contain;
+        display: none;
+    }
+    
+    .image-dog{
+        background-color: #89bada;
+        width: 90%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+        padding: 0 10%;
+        border-radius: 0% 20% 10% 0% / 50% 100%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .image-dog img{
+        width: 70%;
+        margin-left: -20%;
+        height: 51vh;
+        object-fit: cover;
+        float: bottom;
+        position: relative;
+        z-index: 3;
+        top: -2vh;
+        display: none;
+    }
+}
