@@ -207,7 +207,6 @@
     .image-montain{
         background-color: #cbd967;
         width: 100%;
-        margin-left: 2%;
         height: 40vh;
         display: flex;
         align-items: center;
@@ -216,7 +215,7 @@
         z-index: 1;
         padding: 0 10%;
         margin-bottom: 7%;
-        border-radius: 20% 0 0 10% / 100% 50%;
+        border-radius: 0% 0 0 30% / 50% 100%;
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     }
     
@@ -237,22 +236,22 @@
         margin-right: 2%;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: flex-start;  
         position: relative;
         z-index: 1;
         padding: 0 10%;
-        border-radius: 0% 20% 10% 0% / 50% 100%;
+        border-radius: 0% 30% 0% 0% / 50% 100%;
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     }
     
     .image-dog img{
         width: 70%;
         margin-left: -20%;
-        height: 51vh;
-        object-fit: cover;
+        height: 50vh;
+        object-fit: contain;
         float: bottom;
         position: relative;
         z-index: 3;
-        top: -2vh;
+        top: -1.5vh;
     }
 }

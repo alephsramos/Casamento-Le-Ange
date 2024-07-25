@@ -274,7 +274,6 @@ article .wave.wave4 {
 .image-montain{
     background-color: #cbd967;
     width: 90%;
-    margin-left: 10%;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -315,7 +314,7 @@ article .wave.wave4 {
     width: 70%;
     margin-left: -20%;
     height: 51vh;
-    object-fit: cover;
+    object-fit: contain;
     float: bottom;
     position: relative;
     z-index: 3;
@@ -390,6 +389,13 @@ article .wave.wave4 {
     font-size: 1.2rem;
     color: var(--cor-branca);
 }
+
+.card button{
+    padding: 20px 100px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
 
 .card:hover {
     transform: scale(1.03);
@@ -670,7 +676,7 @@ hr{
     overflow: hidden;
     position: relative;
     margin-bottom: 80px;
-    margin-top: -150px;
+    margin-top: -80px;
 }
 
 .fotos-carrossel1 div {
