@@ -519,26 +519,6 @@ hr{
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .modal-content {
-        width: 95%;
-    }
-
-    .modal-body {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .modal-body img {
-        margin-bottom: 20px;
-    }
-}
-
 
 
 .condicoes {
