@@ -394,6 +394,9 @@ article .wave.wave4 {
     padding: 20px 100px;
     border-radius: 20px;
     font-size: 1.2rem;
+    background-color: #ad5e28;
+    border: none;
+    color: var(--cor-branca);
 }
 
 

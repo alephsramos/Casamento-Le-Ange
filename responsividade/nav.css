@@ -80,7 +80,7 @@
   
   .header-text-all h1 {
       color: var(--cor-branca);
-      font-size: 7.5rem;
+      font-size: 7rem;
       width: 80%;
       line-height: 130px;
       font-family: "Comfortaa", sans-serif;
@@ -89,10 +89,10 @@
   
   .header-text-all p {
       color: var(--cor-branca);
-      width: 65%;
-      font-size: 2rem;
+      width: 80%;
+      font-size: 1.2rem;
       margin-top: 10px;
       font-style: italic;
-      text-align: justify;
+      text-align: center;
   }
 }
