@@ -339,6 +339,7 @@ article .wave.wave4 {
     font-size: 4rem;
     margin-bottom: 10px;
     font-family: "Comfortaa", sans-serif;
+    color: #ad5e28;
 }
 
 .eventos-title p{
@@ -420,6 +421,7 @@ article .wave.wave4 {
     flex-wrap: wrap;
 }
 
+
 .modal-body {
     display: flex;
     flex-direction: row;
@@ -441,6 +443,7 @@ article .wave.wave4 {
     flex-direction: column;
     justify-content: center;
 }
+
 
 .modal-h1-1{
     color: #3b491e;
@@ -607,13 +610,13 @@ hr{
     align-items: flex-end;
     justify-content: center;
     padding: 20px;
-    gap: 10px;
+    gap: 15px;
     height: 20vh;
     width: 100%;
   }
   
   .condicoes-topico h4 {
-    text-align: right;
+    text-align: left;
     width: 100%;
     font-size: 2.3rem;
   }
@@ -631,7 +634,7 @@ hr{
   }
   
   .condicoes-topico p {
-    text-align: right;
+    text-align: left;
     width: 100%;
     font-size: 1.8rem;
     width: 100%;
@@ -647,11 +650,17 @@ hr{
 
 
 .condicoes-fim h6{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 20px;
     width: 60%;
     text-align: center;
     color: #d18239;
+    font-weight: 400;
+}
+
+.condicoes-fim b{
+    font-weight: 900;
+    
 }
 
 
@@ -660,7 +669,8 @@ hr{
     height: 40vh;
     overflow: hidden;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    margin-top: -60px;
 }
 
 .fotos-carrossel1 div {
