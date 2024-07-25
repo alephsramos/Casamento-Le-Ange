@@ -1103,3 +1103,27 @@ input::placeholder {
     justify-content: center;
     height: 30vh;
 }
+
+.animate {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+  
+  .animate-left {
+    transform: translateX(-100%);
+  }
+  
+  .animate-right {
+    transform: translateX(100%);
+  }
+  
+  .animate-fade-in {
+    transform: scale(0.9);
+  }
+  
+  .animate.in-view {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+
+  

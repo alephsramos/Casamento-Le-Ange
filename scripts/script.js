@@ -18,3 +18,20 @@ window.onclick = function(event) {
         closeModal(event.target.id);
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.animate');
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+  
+    elements.forEach(element => {
+      observer.observe(element);
+    });
+  });
