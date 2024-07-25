@@ -60,7 +60,7 @@
 article {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden; /* Adicionei overflow hidden para garantir que as ondas não extrapolem o container */
 }
 
