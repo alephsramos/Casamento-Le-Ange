@@ -1,0 +1,500 @@
+@media only screen and (max-width: 600px){
+    .condicoes {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .condicoes-title h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+    
+    .condicoes-title2{
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-top: 5%;
+    }
+    
+    .condicoes-title2 h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .condicoes-container {
+        display: flex;
+        height: 60vh; /* Ajuste conforme necessário */
+        padding: 0 2%;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      
+      .condicoes-image {
+        width: 50%;
+        display: flex;
+        position: relative;
+        align-items: left;
+        justify-content: left;
+        right: 50%;
+        height: 100vh;
+        display: none;
+      }
+    
+      .condicoes-image img{
+        width: 1500px;
+        display: none;
+      }
+      
+      .condicoes-topicos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Distribui os tópicos verticalmente */
+      }
+      
+      .condicoes-topico {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        height: 20vh;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      
+      .condicoes-topico h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.3rem;
+      }
+    
+      .condicoes-topico:nth-child(1){
+        color: #cd7420;
+      }
+    
+      .condicoes-topico:nth-child(2){
+        color: #979952;
+      }
+    
+      .condicoes-topico:nth-child(3){
+        color: #13828f;
+      }
+      
+      .condicoes-topico p {
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        width: 100%;
+        color: black;
+      }
+    
+    .condicoes-fim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+    .condicoes-fim h6{
+        font-size: 0.8rem;
+        padding: 20px;
+        width: 95%;
+        text-align: center;
+        color: #d18239;
+        font-weight: 400;
+    }
+    
+    .condicoes-fim b{
+        font-weight: 900;
+        
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .condicoes {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .condicoes-title h1{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+    
+    .condicoes-title2{
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-top: 5%;
+    }
+    
+    .condicoes-title2 h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .condicoes-container {
+        display: flex;
+        height: 60vh; /* Ajuste conforme necessário */
+        padding: 0 2%;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      
+      .condicoes-image {
+        width: 50%;
+        display: flex;
+        position: relative;
+        align-items: left;
+        justify-content: left;
+        right: 50%;
+        height: 100vh;
+        display: none;
+      }
+    
+      .condicoes-image img{
+        width: 1500px;
+        display: none;
+      }
+      
+      .condicoes-topicos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Distribui os tópicos verticalmente */
+      }
+      
+      .condicoes-topico {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        height: 20vh;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      
+      .condicoes-topico h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+      }
+    
+      .condicoes-topico:nth-child(1){
+        color: #cd7420;
+      }
+    
+      .condicoes-topico:nth-child(2){
+        color: #979952;
+      }
+    
+      .condicoes-topico:nth-child(3){
+        color: #13828f;
+      }
+      
+      .condicoes-topico p {
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+        width: 90%;
+        margin-right: 5%;
+        color: black;
+      }
+    
+    .condicoes-fim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+    .condicoes-fim h6{
+        font-size: 1.2rem;
+        padding: 20px;
+        width: 95%;
+        text-align: center;
+        color: #d18239;
+        font-weight: 400;
+    }
+    
+    .condicoes-fim b{
+        font-weight: 900;
+        
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+    .condicoes {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .condicoes-title{
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .condicoes-title h1{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .condicoes-title2{
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 80px;
+        margin-top: 5%;
+    }
+    
+    .condicoes-title2 h1{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .condicoes-container {
+        display: flex;
+        height: 80vh; /* Ajuste conforme necessário */
+        padding: 0 10%;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .condicoes-image {
+        width: 50%;
+        display: flex;
+        position: relative;
+        align-items: left;
+        justify-content: left;
+        right: 35%;
+        height: 90vh;
+      }
+    
+      .condicoes-image img{
+        width: 1000px;
+      }
+      
+      .condicoes-topicos {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distribui os tópicos verticalmente */
+      }
+      
+      .condicoes-topico {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        height: 20vh;
+        width: 100%;
+      }
+      
+      .condicoes-topico h4 {
+        text-align: left;
+        width: 100%;
+        font-size: 1.8rem;
+      }
+    
+      .condicoes-topico:nth-child(1){
+        color: #cd7420;
+      }
+    
+      .condicoes-topico:nth-child(2){
+        color: #979952;
+      }
+    
+      .condicoes-topico:nth-child(3){
+        color: #13828f;
+      }
+      
+      .condicoes-topico p {
+        text-align: left;
+        width: 100%;
+        font-size: 1.2rem;
+        width: 100%;
+        color: black;
+      }
+    
+    .condicoes-fim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    
+    .condicoes-fim h6{
+        font-size: 1rem;
+        padding: 20px;
+        width: 60%;
+        text-align: center;
+        color: #d18239;
+        font-weight: 400;
+    }
+    
+    .condicoes-fim b{
+        font-weight: 900;
+        
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .condicoes {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .condicoes-title{
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .condicoes-title h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .condicoes-title2{
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 80px;
+        margin-top: 5%;
+    }
+    
+    .condicoes-title2 h1{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .condicoes-container {
+        display: flex;
+        height: 80vh; /* Ajuste conforme necessário */
+        padding: 0 10%;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .condicoes-image {
+        width: 50%;
+        display: flex;
+        position: relative;
+        align-items: left;
+        justify-content: left;
+        right: 50%;
+        height: 90vh;
+      }
+    
+      .condicoes-image img{
+        width: 1000px;
+      }
+      
+      .condicoes-topicos {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distribui os tópicos verticalmente */
+      }
+      
+      .condicoes-topico {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        height: 20vh;
+        width: 100%;
+      }
+      
+      .condicoes-topico h4 {
+        text-align: left;
+        width: 100%;
+        font-size: 1.8rem;
+      }
+    
+      .condicoes-topico:nth-child(1){
+        color: #cd7420;
+      }
+    
+      .condicoes-topico:nth-child(2){
+        color: #979952;
+      }
+    
+      .condicoes-topico:nth-child(3){
+        color: #13828f;
+      }
+      
+      .condicoes-topico p {
+        text-align: left;
+        width: 100%;
+        font-size: 1.2rem;
+        width: 100%;
+        color: black;
+      }
+    
+    .condicoes-fim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    
+    .condicoes-fim h6{
+        font-size: 1rem;
+        padding: 20px;
+        width: 60%;
+        text-align: center;
+        color: #d18239;
+        font-weight: 400;
+    }
+    
+    .condicoes-fim b{
+        font-weight: 900;
+        
+    }
+}
