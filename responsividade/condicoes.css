@@ -302,8 +302,8 @@
         position: relative;
         align-items: left;
         justify-content: left;
-        right: 35%;
-        height: 90vh;
+        right: 30%;
+        height: 85vh;
       }
     
       .condicoes-image img{
@@ -391,6 +391,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
+        margin-top: 20px;
     }
     
     .condicoes-title h1{
@@ -429,8 +430,8 @@
         position: relative;
         align-items: left;
         justify-content: left;
-        right: 50%;
-        height: 90vh;
+        right: 30%;
+        height: 85vh;
       }
     
       .condicoes-image img{
