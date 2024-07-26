@@ -923,7 +923,7 @@ input::placeholder {
     font-size: 1rem;
 }
 
-.item-right-data input[type="date"] {
+.item-right-data input[type="text"] {
     padding: 20px!important;
     font-size: 1rem;
     text-align: left;

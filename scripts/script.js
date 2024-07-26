@@ -59,10 +59,10 @@ document.addEventListener("DOMContentLoaded", function() {
       .then(response => response.json())
       .then(data => {
         if (data.result === "success") {
-          alert("Dados enviados com sucesso!");
+          alert("Enviado com sucesso!");
           form.reset();
         } else {
-          alert("Falha ao enviar os dados.");
+          alert("Falha no envio, tente novamente!");
         }
       })
       .catch(error => console.error("Erro:", error));
