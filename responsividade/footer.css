@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px){
     .footer{
-        margin-top: 300%;
-        height: 60vh;
+        margin-top: 220%;
+        height: 70vh;
         color: var(--cor-preta);
         display: flex;
         justify-content: center;
@@ -12,8 +12,10 @@
     .footer-elements{
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
         width: 100%;
         flex-wrap: wrap;
+        border: 1px solid red;
         align-items: center;
     }
     
@@ -22,6 +24,7 @@
         display: flex;
         justify-content: space-between;
         height: 20vh;
+        flex-wrap: wrap;
     }
     
     .introdução-footer{
@@ -29,18 +32,19 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        flex-direction: column;
         width: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     
     .introdução-footer h6{
         font-size: 1.2rem;
-        width: 50%;
-        opacity: 0.8;
+        width: 100%;
+        opacity: 1;
     }
     
     .footer-links{
-        width: 30%;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -50,7 +54,7 @@
     }
     
     .footer-links a{
-        font-size: 1.4rem;
+        font-size: 1rem;
         color: var(--cor-preta);
         text-decoration: none;
     }
@@ -64,38 +68,40 @@
     
     .footer-links-a{
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
     
     .footer-img{
-        width: 30%;
+        width: 100%;
         display: flex;
         justify-content: center;
+        margin-top: 30px;
     }
     
     .footer-img img{
-        width: 200px;
+        width: 120px;
         height: auto;
         padding: 20px;
         object-fit: contain;
     }
     
     .footer-button{
-        width: 30%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 40px;
     }
     
     .footer-button a{
         border: 1px solid black;
-        border-radius: 20px;
+        border-radius: 10px;
         color: black;
         background-color: transparent;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
         text-decoration: none;
-        padding: 30px 50px;
+        padding: 10px 30px;
         transition: all .3s;
     }
     
@@ -111,29 +117,13 @@
         width: 100%;
         justify-content: center;
         height: 30vh;
+        margin-top: 100px;
     }
-    
-    .animate {
-        opacity: 0;
-        transition: all 0.5s ease-out;
-      }
-      
-      .animate-left {
-        transform: translateX(-100%);
-      }
-      
-      .animate-right {
-        transform: translateX(100%);
-      }
-      
-      .animate-fade-in {
-        transform: scale(0.9);
-      }
-      
-      .animate.in-view {
-        opacity: 1;
-        transform: translateX(0) scale(1);
-      }
+
+    .direitos p{
+        text-align: center;
+       
+    }
     
       
 }
