@@ -27,6 +27,7 @@
     .condicoes-title2 h1{
         font-size: 2rem;
         text-align: center;
+        margin-top: -200px;
     }
     
     .condicoes-container {
@@ -148,8 +149,9 @@
     }
     
     .condicoes-title2 h1{
-        font-size: 2rem;
+        font-size: 3.5rem;
         text-align: center;
+        margin-top: -300px;
     }
     
     .condicoes-container {
