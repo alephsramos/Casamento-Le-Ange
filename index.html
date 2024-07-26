@@ -38,7 +38,7 @@
             <div class="wave wave4"></div>
         </article>
 
-        <nav class="nav">
+        <nav id="nav" class="nav">
             <div class="nav-logo animate animate-fade-in element">
                 <img src="imagens/img/logo-2.png">
             </div>
@@ -95,13 +95,13 @@
             </div>
             <div class="card-container animate animate-fade-in element">
                 <div class="card" id="card1" onclick="openModal('modal1')">
-                    <img src="imagens/img/bolo-ofc.svg" alt="Imagem 1">
-                    <p>Comemore os momentos doces da vida</p>
+                    <img src="imagens/img/anel-ofc.svg" alt="Imagem 1">
+                    <p>Coração palpitando, emoções à flor da pele e a certeza de dias inesqueciveis</p>
                     <button>Saiba mais</button>
                 </div>
                 <div class="card" id="card2" onclick="openModal('modal2')">
-                    <img src="imagens/img/anel-ofc.svg" alt="Imagem 2">
-                    <p>Coração palpitando, emoções à flor da pele e a certeza de dias inesqueciveis.</p>
+                    <img src="imagens/img/bolo-ofc.svg" alt="Imagem 2">
+                    <p>Comemore os momentos doces da vida</p>
                     <button>Saiba mais</button>
                 </div>
             </div>
@@ -112,9 +112,9 @@
                 <div class="modal-content">
                     
                     <div class="modal-body">
-                        <img src="imagens/img/foto-niver1.png" alt="Imagem Modal 1">
+                        <img src="imagens/img/foto-casal1.png" alt="Imagem Modal 1">
                         <div class="modal-text animate animate-fade-in element">
-                            <h1 class="modal-h1-1">ANIVERSÁRIO</h1><hr>
+                            <h1 class="modal-h1-1">PRE-WEDDING</h1><hr>
                             <h2 class="modal-h2-1">Coquetel na Chegada (Sexta-feira):</h2>
                             <p class="modal-p-1"> Desfrute de um coquetel de boas-vindas, marcando o início de um fim de semana inesquecível.
                             </p>
@@ -158,9 +158,9 @@
                 <div class="modal-content">
                     
                     <div class="modal-body">
-                        <img src="imagens/img/foto-casal1.png" alt="Imagem Modal 2">
+                        <img src="imagens/img/foto-niver1.png" alt="Imagem Modal 2">
                         <div class="modal-text animate animate-fade-in element">
-                            <h1 class="modal-h1-2">PRE-WEDDING</h1><hr>
+                            <h1 class="modal-h1-2">ANIVERSÁRIO</h1><hr>
                             <h2 class="modal-h2-2">Coquetel na Chegada (Sexta-feira):</h2>
                             <p class="modal-p-2">Desfrute de um coquetel de boas-vindas, marcando o início de um fim de semana inesquecível.
                             </p>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="form-all">
                     <div class="form-container-maior">
-                        <div class="form-container">
+                        <form class="form-container">
                             <div class="left">
                                 <div class="itens-left animate animate-fade-in element">
                                     <div>
@@ -292,30 +292,29 @@
                                         <input type="number" id="whatsapp" placeholder="Digite seu número">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="right">
-                                <div class="checkbox-group animate animate-fade-in element">
-                                    <div>
-                                        <label>Unidade</label>
-                                        <label><input type="checkbox" name="unidade" value="LeAnge Serra">LeAnge Serra</label>
-                                        <label><input type="checkbox" name="unidade" value="LeAnge Mar">LeAnge Mar</label>
+                                <div class="right">
+                                    <div class="checkbox-group animate animate-fade-in element">
+                                        <div>
+                                            <label>Unidade</label>
+                                            <label><input type="checkbox" name="unidade" value="LeAnge Serra">LeAnge Serra</label>
+                                            <label><input type="checkbox" name="unidade" value="LeAnge Mar">LeAnge Mar</label>
+                                        </div>
+                                        <div>
+                                            <label>Evento</label>
+                                            <label><input type="checkbox" name="evento" value="Aniversário">Aniversário</label>
+                                            <label><input type="checkbox" name="evento" value="Pre-Wedding">Pre-Wedding</label>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <label>Evento</label>
-                                        <label><input type="checkbox" name="evento" value="Aniversário">Aniversário</label>
-                                        <label><input type="checkbox" name="evento" value="Pre-Wedding">Pre-Wedding</label>
+                                    <div class="item-right-data animate animate-fade-in element">
+                                        <label for="event-date">Data do evento</label>
+                                        <input type="date" id="event-date" placeholder="Digite a data do evento">
                                     </div>
                                 </div>
-                                <div class="item-right-data animate animate-fade-in element">
-                                    <label for="event-date">Data do evento</label>
-                                    <input type="date" id="event-date" placeholder="Digite a data do evento">
+                                <div class="full-width animate animate-fade-in element">
+                                    <button type="submit">Entre em Contato</button>
                                 </div>
-                            </div>
-                            <div class="full-width animate animate-fade-in element">
-                                <button type="submit">Entre em Contato</button>
-                            </div>
                         </div>
-                    </div></div>
+                    </form></div>
                     
                     
             </div>
@@ -350,7 +349,7 @@
                 <img src="imagens/img/logo.png">
             </div>
             <div class="footer-button animate animate-right element">
-                <button>Voltar ao topo</button>
+                <a href="#nav">Voltar ao topo</a>
             </div></div>
             <div class="direitos animate animate-fade-in element">
                 <p>© 2024 Pousada LeAnge. Todos os direitos reservados.</p>

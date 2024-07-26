@@ -35,3 +35,36 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(element);
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const whatsapp = document.getElementById("whatsapp").value;
+      const unidades = Array.from(document.querySelectorAll("input[name='unidade']:checked")).map(checkbox => checkbox.value).join(", ");
+      const eventos = Array.from(document.querySelectorAll("input[name='evento']:checked")).map(checkbox => checkbox.value).join(", ");
+      const eventDate = document.getElementById("event-date").value;
+
+      fetch("https://script.google.com/macros/s/AKfycbwJ9VITwkRr7z4G7HhEUEHXaFOEaxfMPHT32IZ8RwoP4V2frc2Eua8C_p1oT5O5DkeUfg/exec", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: `name=${name}&whatsapp=${whatsapp}&unidade=${unidades}&evento=${eventos}&eventDate=${eventDate}`
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.result === "success") {
+          alert("Dados enviados com sucesso!");
+          form.reset();
+        } else {
+          alert("Falha ao enviar os dados.");
+        }
+      })
+      .catch(error => console.error("Erro:", error));
+    });
+  });
