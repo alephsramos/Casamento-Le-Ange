@@ -108,17 +108,17 @@
     
     
     .nav-links a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
     
     .nav-logo img {
-        width: 80px;
+        width: 70px;
     }
     
     .header-text-all h1 {
         color: var(--cor-branca);
-        font-size: 6rem;
+        font-size: 5rem;
         width: 80%;
         line-height: 100px;
         font-family: "Comfortaa", sans-serif;
@@ -128,7 +128,7 @@
     .header-text-all p {
         color: var(--cor-branca);
         width: 80%;
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-top: 10px;
         font-style: italic;
         text-align: center;
