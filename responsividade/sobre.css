@@ -363,6 +363,6 @@
         float: bottom;
         position: relative;
         z-index: 3;
-        top: 0.5vh;
+        top: -1.5vh;
     }
 }
