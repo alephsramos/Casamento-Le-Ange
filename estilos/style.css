@@ -944,7 +944,7 @@ input::placeholder {
 
 /* The Custom Modal (background) */
 .custom-modal {
-    display: none;
+    display: none!important;
     position: fixed;
     z-index: 20;
     left: 0;
