@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
     .condicoes {
-        height: 100vh;
+        height: 105vh;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -27,7 +27,7 @@
     .condicoes-title2 h1{
         font-size: 2rem;
         text-align: center;
-        margin-top: -200px;
+        margin-top: -180px;
     }
     
     .condicoes-container {
@@ -105,12 +105,13 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+
     }
     
     
     .condicoes-fim h6{
         font-size: 0.8rem;
-        padding: 20px;
+        padding-bottom: 20px;
         width: 95%;
         text-align: center;
         color: #d18239;
