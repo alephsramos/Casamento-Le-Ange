@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px){
+    
+    html{
+        overflow-x: hidden;
+    }
+    
     .contato{
         height: 50vh;
         margin-top: 5%;
@@ -237,6 +242,11 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px){
+    
+    html{
+        overflow-x: hidden;
+    }
+
     .contato{
         height: 50vh;
         margin-top: 5%;
