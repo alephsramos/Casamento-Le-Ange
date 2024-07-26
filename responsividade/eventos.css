@@ -399,6 +399,11 @@
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px){
+    
+    html{
+        overflow-x: hidden;
+    }
+    
     .eventos{
         padding: 0 10%;
         margin-top: 5%;
@@ -587,7 +592,7 @@
         overflow: hidden;
         position: relative;
         margin-bottom: 0px;
-        margin-top: 5%;
+        margin-top: 10%;
         overflow: hidden;
     }
     
@@ -601,6 +606,11 @@
 }
 
 @media only screen and (min-width: 1201px){
+    
+    html{
+        overflow-x: hidden;
+    }
+    
     .eventos{
         padding: 0 10%;
         margin-top: 5%;
@@ -789,7 +799,8 @@
         overflow: hidden;
         position: relative;
         margin-bottom: 0px;
-        margin-top: 3%;
+        margin-top: 6%;
+        margin-bottom: 3%;
         overflow: hidden;
     }
     
