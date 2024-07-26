@@ -20,7 +20,7 @@
         margin: 0 5px;
         box-sizing: border-box;
         object-fit: cover;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     
     
@@ -46,7 +46,7 @@
         margin: 0 5px;
         box-sizing: border-box;
         object-fit: cover;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     
 }
