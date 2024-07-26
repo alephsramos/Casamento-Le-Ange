@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
     .footer{
-        margin-top: 240%;
+        margin-top: 230%;
         height: 70vh;
         color: var(--cor-preta);
         display: flex;
