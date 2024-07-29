@@ -1034,7 +1034,13 @@ input::placeholder {
     border-radius: 20px;
     width: 50%;
     height: 100px;
+    transition: all .2s;
     font-size: 1.7rem;
+    flex-direction: c;
+}
+
+.form-container button:hover{
+    background-color: #13828f;
 }
 
 
