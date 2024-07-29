@@ -459,7 +459,7 @@
       .condicoes-topico h4 {
         text-align: left;
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
       }
     
       .condicoes-topico:nth-child(1){
@@ -477,7 +477,7 @@
       .condicoes-topico p {
         text-align: left;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         width: 100%;
         color: black;
       }
@@ -491,7 +491,7 @@
     
     
     .condicoes-fim h6{
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 20px;
         width: 60%;
         text-align: center;

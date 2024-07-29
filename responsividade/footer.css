@@ -397,7 +397,7 @@
 
 @media only screen and (min-width: 1201px){
     .footer{
-        margin-top: 80%;
+        margin-top: 75%;
         height: 60vh;
         color: var(--cor-preta);
         display: flex;

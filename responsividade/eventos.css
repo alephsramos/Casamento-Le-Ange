@@ -795,7 +795,7 @@
     
     .fotos-carrossel1 {
         width: 100%;
-        height: 35vh;
+        height: 45vh;
         overflow: hidden;
         position: relative;
         margin-bottom: 0px;
@@ -809,6 +809,7 @@
     .fotos-carrossel1 div img {
         height: 100%;
         margin: 0 5px;
-        border-radius: 10px;
+        border-radius: 50px;
+        object-position: top;
     } 
 }
